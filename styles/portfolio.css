@@ -47,6 +47,9 @@ nav ul{
     display: flex;
     align-items: center;
 }
+.dark-1{
+    color: #181818;
+}
 
 .dark-2{
     color: #474747;
@@ -64,12 +67,23 @@ nav ul{
     font-size: 20px;
     border: none;
 }
-
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.section-description{
+    font:18px ;
+    color: #757575;
+}
+.secondery-bg{
+    background-color: #FFF8F3;
+}
 /* banner styles */
 
 
 
-.banner{
+.banner{    
     display: flex;
     justify-content: space-between;
     margin: 0 30px 0 200px;
@@ -98,4 +112,23 @@ nav ul{
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
-
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: bold;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 150px;
+    text-align: center;
+}
