@@ -88,7 +88,9 @@ nav ul{
 }
 /* banner styles */
 
-
+.image-hardy{
+    align-items: center;
+}
 
 .banner{    
     display: flex;
@@ -111,9 +113,10 @@ nav ul{
     font-weight: regular;
     
 }
-.img-hardy{
-    margin: 0px;
-    padding: 0px;
+
+
+.image-hardy{
+    
 }
 .banner-pp{
     width: 584px;
@@ -171,4 +174,25 @@ main section{
     
 
     
+}
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+   
+}
+footer input[type="text"] ,footer input[type="email"] ,footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 24px;
+    border: none;
+
 }
